@@ -52,7 +52,7 @@ body {
 .Artist_Image {
    margin: 0;
     position: absolute;
-    top: 35%;
+    top: 39%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -179,20 +179,74 @@ Search bar
 
 .box_music {
 
-	padding: 250px 0px 0px 0px;
+	padding: 2050px 0px 0px 50px;
 	margin: 0;
     position: absolute;
-    top: 35%;
+    /*top: 35%;*/
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 
 }
 
+.box_music h2 {
+ 
+  padding: 0px 0px 0px 0px;
+  color: white;
+}
 
 
 
+.Artist_Artwork {
+  padding: 190px 0px 0px 0px;
+  display: inline-block;
 
+}
+
+.Artist_Artwork img {
+  height: 200px;
+  width: auto;
+  padding: 10px 0px 0px 530px;
+  
+}
+
+.Artist_Artwork h2 {
+  text-align: center;
+  padding: 0px 0px 0px 510px;
+  color: white;
+}
+
+.Artist_Artwork h4 {
+  text-align: center;
+  padding: 0px 0px 0px 510px;
+  color: white;
+}
+
+
+.Artist_Artwork_songs {
+  padding: 10px 0px 0px 0px;
+  display: inline-block;
+}
+
+
+.Artist_Artwork_songs img {
+  height: 200px;
+  width: auto;
+  padding: 10px 0px 0px 530px;
+  
+}
+
+.Artist_Artwork_songs h2 {
+  text-align: center;
+  padding: 0px 0px 0px 510px;
+  color: white;
+}
+
+.Artist_Artwork_songs h4 {
+  text-align: center;
+  padding: 0px 0px 0px 510px;
+  color: white;
+}
 
 
 
