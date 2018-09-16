@@ -62,8 +62,27 @@ body {
 	height: 150px;
     width: auto;
 }
+/*
+Back button*/
 
+.main_buttons_artist_back { 
+  padding: 0px 0px 0px 10px;
+}
 
+.main_buttons_artist_back button {
+ padding: 10px 20px 10px 20px;
+  margin: 0px 0px 0px 0px;
+  background-color: black; /* Green */
+  color: white;
+  border-radius: 2px;
+  border: black;
+}
+
+.main_buttons_artist_back button:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*Other buttons*/
 
 .main_buttons_artist {
 	padding: 0px 0px 0px 840px;
@@ -198,27 +217,29 @@ Search bar
 
 
 .Artist_Artwork {
-  padding: 190px 0px 0px 0px;
+  padding: 200px 0px 200px 0px;
   display: inline-block;
+   position: absolute;
+    z-index: -1;
 
 }
 
 .Artist_Artwork img {
   height: 200px;
   width: auto;
-  padding: 10px 0px 0px 530px;
+  padding: 10px 0px 0px 650px;
   
 }
 
 .Artist_Artwork h2 {
   text-align: center;
-  padding: 0px 0px 0px 510px;
+  padding: 0px 0px 0px 630px;
   color: white;
 }
 
 .Artist_Artwork h4 {
   text-align: center;
-  padding: 0px 0px 0px 510px;
+  padding: 0px 0px 0px 630px;
   color: white;
 }
 
@@ -247,6 +268,28 @@ Search bar
   padding: 0px 0px 0px 510px;
   color: white;
 }
+
+.youtube_videos {
+  padding: 230px 0px 0px 50px;
+  float: left;
+}
+
+
+
+.box_music_freestylesPreview {
+    
+    padding: 300px 0px 0px 950px;
+    z-index: -1;
+
+}
+
+
+
+
+
+
+
+
 
 
 
